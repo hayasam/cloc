@@ -1,5 +1,5 @@
 # Dockerfile by Sébastien HOUZÉ, https://github.com/shouze
-FROM perl:slim
+FROM perl:5.41.3-slim-bookworm
 
 RUN apt-get update && apt-get install -y \
     unzip \
